@@ -1,4 +1,4 @@
-# ECFP in APL
+[![](banner.png)](https://butwhyisthat.substack.com/p/ecfp)
 
 This is the source code for the blogpost "[Extended Connectivity Fingerprint in APL](https://butwhyisthat.substack.com/p/ecfp)" on [But Why Is That](https://butwhyisthat.substack.com/subscribe).
 
