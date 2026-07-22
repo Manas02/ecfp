@@ -7,7 +7,7 @@ ECFP←{
     useStereo←2⊃⍺,1
     raw←ReadMatrix ⍵
     n←⊢/⍴raw                                         ⍝ atoms = number of columns
-    parity←useStereo×(1+(≢raw)>n)⊃(n⍴0)(raw[≢raw;])  ⍝ optional last row
+    parity←useStereo×((≢raw)>n)×⊢⌿raw                ⍝ optional last row
     M←n↑raw                                          ⍝ the square matrix itself
     ids0←1 1⍉M                                       ⍝ diagonal → initial identifiers
     B←M×∘.≠⍨⍳n                                       ⍝ zero the diagonal → bond orders
